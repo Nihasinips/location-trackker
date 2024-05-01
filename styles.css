@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.location, .thingspeak {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.location h2, .thingspeak h2 {
+    margin-top: 0;
+}
+
+.location p, .thingspeak p {
+    margin-bottom: 10px;
+}
+
+#logButton {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#logButton:hover {
+    background-color: #45a049;
+}
+
+#thingSpeakChart {
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    max-width: 100%;
+}
